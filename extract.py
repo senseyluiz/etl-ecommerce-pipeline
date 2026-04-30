@@ -26,19 +26,15 @@ def extract_cart_products():
     sales = []
     # Extrair dados necessários do carrinho
     for sale in data:
-        sale_data = {
-            "cart_id": sale["id"],
-            "user_id": sale["userId"],
-            "date": sale["date"],
-            "products":[
-                {
-                    "product_id": product["productId"],
-                    "quantity": int(product["quantity"])
-                }
-                for product in sale["products"]
-            ]
-        }
-        sales.append(sale_data)
+        for sale_item in sale["products"]:
+            sale_data = {
+                "cart_id": sale["id"],
+                "user_id": sale["userId"],
+                "date": sale["date"][:10],
+                "product_id": sale_item["productId"],
+                "quantity": int(sale_item["quantity"])
+            }
+            sales.append(sale_data)
     return sales
 if __name__ == "__main__":
     products = extract_products()
