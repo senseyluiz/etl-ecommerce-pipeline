@@ -1,4 +1,5 @@
 import requests
+import json
 
 def extract_products():
     PRODUCTS_URL = "https://fakestoreapi.com/products"
@@ -39,3 +40,13 @@ def extract_cart_products():
 if __name__ == "__main__":
     products = extract_products()
     cart_products = extract_cart_products()
+
+    # Salvar Produtos
+    with open("products.json", "w") as outfile:
+        json.dump(products, outfile, indent=4)
+
+    # Salvar vendas
+    with open("carts.json", "w") as outfile:
+        json.dump(cart_products, outfile, indent=4)
+
+    print("\33[32m Dados extraídos e salvos com sucesso! \33[m")
