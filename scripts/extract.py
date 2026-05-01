@@ -46,7 +46,7 @@ if __name__ == "__main__":
         json.dump(products, outfile, indent=4)
 
     # Salvar vendas
-    with open("../data/carts.json", "w") as outfile:
+    with open("../data/sales.json", "w") as outfile:
         json.dump(cart_products, outfile, indent=4)
 
     print("\33[32m Dados extraídos e salvos com sucesso! \33[m")
