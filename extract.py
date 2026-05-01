@@ -42,11 +42,11 @@ if __name__ == "__main__":
     cart_products = extract_cart_products()
 
     # Salvar Produtos
-    with open("products.json", "w") as outfile:
+    with open("data/products.json", "w") as outfile:
         json.dump(products, outfile, indent=4)
 
     # Salvar vendas
-    with open("carts.json", "w") as outfile:
+    with open("data/carts.json", "w") as outfile:
         json.dump(cart_products, outfile, indent=4)
 
     print("\33[32m Dados extraídos e salvos com sucesso! \33[m")
