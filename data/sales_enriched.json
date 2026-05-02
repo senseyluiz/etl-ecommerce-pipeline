@@ -1,0 +1,156 @@
+[
+    {
+        "cart_id": 1,
+        "user_id": 1,
+        "product_id": 1,
+        "product_name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing",
+        "price": 109.95,
+        "quantity": 4,
+        "date": "2020-03-02",
+        "revenue": 439.8
+    },
+    {
+        "cart_id": 1,
+        "user_id": 1,
+        "product_id": 2,
+        "product_name": "Mens Casual Premium Slim Fit T-Shirts ",
+        "category": "men's clothing",
+        "price": 22.3,
+        "quantity": 1,
+        "date": "2020-03-02",
+        "revenue": 22.3
+    },
+    {
+        "cart_id": 1,
+        "user_id": 1,
+        "product_id": 3,
+        "product_name": "Mens Cotton Jacket",
+        "category": "men's clothing",
+        "price": 55.99,
+        "quantity": 6,
+        "date": "2020-03-02",
+        "revenue": 335.94
+    },
+    {
+        "cart_id": 2,
+        "user_id": 1,
+        "product_id": 2,
+        "product_name": "Mens Casual Premium Slim Fit T-Shirts ",
+        "category": "men's clothing",
+        "price": 22.3,
+        "quantity": 4,
+        "date": "2020-01-02",
+        "revenue": 89.2
+    },
+    {
+        "cart_id": 2,
+        "user_id": 1,
+        "product_id": 1,
+        "product_name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing",
+        "price": 109.95,
+        "quantity": 10,
+        "date": "2020-01-02",
+        "revenue": 1099.5
+    },
+    {
+        "cart_id": 2,
+        "user_id": 1,
+        "product_id": 5,
+        "product_name": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "category": "jewelery",
+        "price": 695.0,
+        "quantity": 2,
+        "date": "2020-01-02",
+        "revenue": 1390.0
+    },
+    {
+        "cart_id": 3,
+        "user_id": 2,
+        "product_id": 1,
+        "product_name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing",
+        "price": 109.95,
+        "quantity": 2,
+        "date": "2020-03-01",
+        "revenue": 219.9
+    },
+    {
+        "cart_id": 3,
+        "user_id": 2,
+        "product_id": 9,
+        "product_name": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "category": "electronics",
+        "price": 64.0,
+        "quantity": 1,
+        "date": "2020-03-01",
+        "revenue": 64.0
+    },
+    {
+        "cart_id": 4,
+        "user_id": 3,
+        "product_id": 1,
+        "product_name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "category": "men's clothing",
+        "price": 109.95,
+        "quantity": 4,
+        "date": "2020-01-01",
+        "revenue": 439.8
+    },
+    {
+        "cart_id": 5,
+        "user_id": 3,
+        "product_id": 7,
+        "product_name": "White Gold Plated Princess",
+        "category": "jewelery",
+        "price": 9.99,
+        "quantity": 1,
+        "date": "2020-03-01",
+        "revenue": 9.99
+    },
+    {
+        "cart_id": 5,
+        "user_id": 3,
+        "product_id": 8,
+        "product_name": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "category": "jewelery",
+        "price": 10.99,
+        "quantity": 1,
+        "date": "2020-03-01",
+        "revenue": 10.99
+    },
+    {
+        "cart_id": 6,
+        "user_id": 4,
+        "product_id": 10,
+        "product_name": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "category": "electronics",
+        "price": 109.0,
+        "quantity": 2,
+        "date": "2020-03-01",
+        "revenue": 218.0
+    },
+    {
+        "cart_id": 6,
+        "user_id": 4,
+        "product_id": 12,
+        "product_name": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "category": "electronics",
+        "price": 114.0,
+        "quantity": 3,
+        "date": "2020-03-01",
+        "revenue": 342.0
+    },
+    {
+        "cart_id": 7,
+        "user_id": 8,
+        "product_id": 18,
+        "product_name": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "category": "women's clothing",
+        "price": 9.85,
+        "quantity": 1,
+        "date": "2020-03-01",
+        "revenue": 9.85
+    }
+]
