@@ -152,6 +152,21 @@ Exemplos disponíveis em `sql/analytics.sql`:
   ```python scripts/load.py```
 ---
 
+## 🎯 Resultados
+
+### Com este pipeline é possível:
+
+- Identificar produtos mais vendidos
+- Analisar receita por categoria
+- Avaliar performance diária de vendas
+- Criar base para dashboards e BI
+## 🚀 Próximos Passos
+- Orquestração com Airflow
+- Armazenamento em Data Warehouse
+- Criação de dashboard (Power BI / Looker)
+- Versionamento de dados
+- Testes automatizados
+---
 ## 👨‍💻 Autor
 
 Luis Henrique
